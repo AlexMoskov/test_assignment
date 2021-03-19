@@ -1,5 +1,8 @@
 # Setup
 
+Api client for http://numbersapi.com/
+
+
 ## Local dev setup
 
 1. bundle install
