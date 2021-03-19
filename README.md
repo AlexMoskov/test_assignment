@@ -1,7 +1,6 @@
-# Setup
-
 Api client for http://numbersapi.com/
 
+# Setup
 
 ## Local dev setup
 
