@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/113311331133/trivia?fragment=&notfound=floor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Fri, 19 Mar 2021 00:34:46 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '59'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '106000000000'
+      X-Numbers-Api-Type:
+      - trivia
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"3b-jDBFmSdEJ5WyCmS3xl8xQbO5cG8"
+      Last-Modified:
+      - '1616114086'
+    body:
+      encoding: UTF-8
+      string: the number of homo sapiens that have lived since speciation
+  recorded_at: Fri, 19 Mar 2021 00:33:16 GMT
+recorded_with: VCR 6.0.0

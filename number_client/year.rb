@@ -1,0 +1,1 @@
+class NumberClient::Year < NumberClient::Base; end

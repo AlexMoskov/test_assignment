@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/11/11/date?notfound=ceil
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 23:47:05 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '114'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '316'
+      X-Numbers-Api-Type:
+      - date
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"72-iXf4VNcJ5pztupEXrzWE571lvSc"
+      Last-Modified:
+      - '1616111225'
+    body:
+      encoding: UTF-8
+      string: November 11th is the day in 1960 that a military coup against President
+        Ngo Dinh Diem of South Vietnam is crushed.
+  recorded_at: Thu, 18 Mar 2021 23:45:34 GMT
+recorded_with: VCR 6.0.0

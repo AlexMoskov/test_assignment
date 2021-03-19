@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/random/year
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 21:17:07 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '84'
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '658'
+      X-Numbers-Api-Type:
+      - year
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"54-GAUEq+9+OK8lJQnmFk5ConYjTjI"
+      Last-Modified:
+      - '1616102227'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: 658 is the year that the Union of Slavic Tribes falls apart after King
+        Samo's death.
+  recorded_at: Thu, 18 Mar 2021 21:15:37 GMT
+recorded_with: VCR 6.0.0

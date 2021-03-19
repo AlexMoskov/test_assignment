@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/random/date
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 23:35:22 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '142'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '209'
+      X-Numbers-Api-Type:
+      - date
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"8e-JYu8AqxnYQlt28T7qEmkVTvS6uI"
+      Last-Modified:
+      - '1616110522'
+    body:
+      encoding: UTF-8
+      string: July 27th is the day in 1990 that the Supreme Soviet of the Belarusian
+        Soviet Republic declares independence of Belarus from the Soviet Union.
+  recorded_at: Thu, 18 Mar 2021 23:33:52 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/8/8/date?notfound=floor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 23:53:11 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '86'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '221'
+      X-Numbers-Api-Type:
+      - date
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"56-CZoGFHNvIGUchNwbdeN5wSzqVus"
+      Last-Modified:
+      - '1616111591'
+    body:
+      encoding: UTF-8
+      string: August 8th is the day in 1876 that Thomas Edison receives a patent for
+        his mimeograph.
+  recorded_at: Thu, 18 Mar 2021 23:51:41 GMT
+recorded_with: VCR 6.0.0

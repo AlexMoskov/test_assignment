@@ -1,0 +1,78 @@
+{
+  "Mintest": {
+    "coverage": {
+      "/home/alex-mosk/Work/Test/test_assignment/number_client/base.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          33,
+          33,
+          null,
+          null,
+          1,
+          33,
+          null,
+          29,
+          29,
+          null,
+          null,
+          1,
+          null,
+          1,
+          58,
+          null,
+          null,
+          1,
+          58,
+          null,
+          null,
+          1,
+          25,
+          null,
+          22,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/alex-mosk/Work/Test/test_assignment/number_client/date.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          8,
+          null,
+          7,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/alex-mosk/Work/Test/test_assignment/number_client/math.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/home/alex-mosk/Work/Test/test_assignment/number_client/trivia.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/home/alex-mosk/Work/Test/test_assignment/number_client/year.rb": {
+        "lines": [
+          1
+        ]
+      }
+    },
+    "timestamp": 1616116701
+  }
+}

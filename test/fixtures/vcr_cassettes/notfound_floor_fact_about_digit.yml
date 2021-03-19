@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/113311331133/math?notfound=floor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Fri, 19 Mar 2021 00:16:04 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '112'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '4294967297'
+      X-Numbers-Api-Type:
+      - math
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"70-BBkOKlnSv8Xe2syVISiF8pP9nQo"
+      Last-Modified:
+      - '1616112964'
+    body:
+      encoding: UTF-8
+      string: 4294967297 is a Fermat number and semiprime. It is the smallest number
+        of the form  which is not a prime number.
+  recorded_at: Fri, 19 Mar 2021 00:14:33 GMT
+recorded_with: VCR 6.0.0

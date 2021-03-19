@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/2012/year?fragment=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 23:01:45 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '60'
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '2012'
+      X-Numbers-Api-Type:
+      - year
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"3c-+/EBh8wAevFl9WeUUDay7Bqs3fQ"
+      Last-Modified:
+      - '1616108505'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: a fire at a prison in Comayagua, Honduras kills at least 357
+  recorded_at: Thu, 18 Mar 2021 23:00:15 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/1234567890987654321/year?default=This%20is%20test%20for%20default%20fact.
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 23:13:39 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '30'
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '1234567890987654400'
+      X-Numbers-Api-Type:
+      - year
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"1e-7JWohw0DL0tjRhpgMeO1ku09QQE"
+      Last-Modified:
+      - '1616109219'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: This is test for default fact.
+  recorded_at: Thu, 18 Mar 2021 23:12:09 GMT
+recorded_with: VCR 6.0.0

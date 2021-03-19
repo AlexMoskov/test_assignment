@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://numbersapi.com/3319/year?notfound=floor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Thu, 18 Mar 2021 23:08:10 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '94'
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Numbers-Api-Number:
+      - '2059'
+      X-Numbers-Api-Type:
+      - year
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+      Expires:
+      - '0'
+      Etag:
+      - W/"5e-/3oBir8B+PMH/4I6V8a9OMvWre0"
+      Last-Modified:
+      - '1616108890'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: 2059 is the year that Futurist Simon Hopkins predicts the collapse of
+        modern economic systems.
+  recorded_at: Thu, 18 Mar 2021 23:06:39 GMT
+recorded_with: VCR 6.0.0
